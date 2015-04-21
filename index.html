@@ -9,7 +9,18 @@
 
     <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="skins/ninjapresentation.skin.samplepresentation.css">
-    <style type="text/css">* {margin: 0; padding: 0;}</style>
+    <style type="text/css">
+        * {margin: 0; padding: 0;}
+        .circleShape {
+        	float: left;
+        	width: 150px;
+        	height: 150px;
+        	border-radius: 50%;
+        
+        	shape-outside: circle();
+        	shape-margin: 15px;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,8 +36,11 @@
         </ninja-slide>
 
         <ninja-slide background='#C0392B' font='Port Lligat Slab' color='#FFF' align='center'>
-            <h1>Customizable</h1>
-            <p>Define the look of your presentation easily</p>
+            <img src="http://api.randomuser.me/0.3.2/portraits/men/7.jpg" alt="profile image" class="circleShape">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum itaque nam blanditiis eveniet enim eligendi quae adipisci?</p>
+
+            <p>Assumenda blanditiis voluptas tempore porro quibusdam beatae deleniti quod asperiores sapiente dolorem error! Quo nam quasi soluta reprehenderit laudantium optio ipsam ducimus consequatur enim fuga quibusdam mollitia nesciunt modi.</p>
         </ninja-slide>
 
         <ninja-slide background='green' font='Port Lligat Slab' color='#FFF' align='center'>
